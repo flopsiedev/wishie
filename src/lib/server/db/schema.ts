@@ -1,20 +1,26 @@
-import { sqliteTable, text, integer } from 'drizzle-orm/sqlite-core';
+import { sqliteTable, integer, text } from "drizzle-orm/sqlite-core";
 
-export const user = sqliteTable('user', {
-	id: text('id').primaryKey(),
-	age: integer('age'),
-	username: text('username').notNull().unique(),
-	passwordHash: text('password_hash').notNull()
+export const userTable = sqliteTable("user", {
+	id: integer("id").primaryKey(),
+	googleId: text("google_id").unique(),
+	email: text("email").notNull(),
+	name: text("name").notNull(),
+	picture: text("picture").notNull(),
+	username: text("username").unique(),
 });
 
-export const session = sqliteTable('session', {
+export const sessionTable = sqliteTable('session', {
 	id: text('id').primaryKey(),
-	userId: text('user_id')
+	userId: integer('user_id')
 		.notNull()
-		.references(() => user.id),
-	expiresAt: integer('expires_at', { mode: 'timestamp' }).notNull()
+		.references(() => userTable.id),
+	expiresAt: integer('expires_at', { mode: 'timestamp' }).notNull(),
+	userAgent: text('user_agent'),
+	deviceType: text('device_type'),
+	browser: text('browser'),
+	os: text('os'),
+	lastUsed: integer('last_used', { mode: 'timestamp' }).notNull()
 });
 
-export type Session = typeof session.$inferSelect;
-
-export type User = typeof user.$inferSelect;
+export type Session = typeof sessionTable.$inferSelect;
+export type User = typeof userTable.$inferSelect;
