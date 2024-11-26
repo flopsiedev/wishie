@@ -1,38 +1,33 @@
-# sv
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/924b7d86-ac02-403f-9df8-d20c15c10993">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/28d3420a-15d6-4c57-b157-fc94eb9413c1">
+  <img 
+    alt="A book with a sparkle on the top-right corner. To the right are the words, 'Wishly'." 
+    src="https://github.com/user-attachments/assets/28d3420a-15d6-4c57-b157-fc94eb9413c1" 
+    width="300"
+  >
+</picture>
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/approved-by-my-mom.svg)](https://forthebadge.com)
 
-## Creating a project
+> [!WARNING]
+> This is a WIP, please be patient as development completes!
 
-If you're seeing this, you've probably already done this step. Congrats!
+What is this?
+---
+If you don't trust that it's a simple wishlist app, it's intended to be a single paste away from building a wishlist from anywhere on the internet! Once you have all you need, it should be a simple share the link with anyone you'd like!
 
-```bash
-# create a new project in the current directory
-npx sv create
+My parents were asking me to make a wishlist for the rest of the family. I was really only using Amazon's wishlist, and in turn, Amazon's inventory. To put my feelings of Amazon aside, I wanted a way to just **share a list of items, no matter where they were, in a simple way that wasn't a hassle to put together**. 
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Features
+- [x] Sign In with Google (OAuth)
+- [ ] Single Paste Algorithm or SPA! (I didn't mean to make an ancronym...)
+  - [ ] Pasting the link to make an entry
+  - [ ] Deleting entries
+  - [ ] Generating Name & Price from URL
+  - [ ] Marking entries as purchased
+- [ ] Push Notifications for purchased items
+ - [ ] Email Notification?
+- [ ] PWA-friendly
+- [ ] Making it look pretty
