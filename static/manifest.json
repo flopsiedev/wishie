@@ -1,0 +1,19 @@
+{
+    "short_name": "Wishly",
+    "name": "Wishly - A Simple Wishlist",
+    "description": "A wishlist app, it's that simple.",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#070713",
+    "background_color": "#070713",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "black-translucent"
+}
