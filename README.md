@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/924b7d86-ac02-403f-9df8-d20c15c10993">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/28d3420a-15d6-4c57-b157-fc94eb9413c1">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/8b897ab2-9aac-4160-a0a6-079a656cfc35">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/7907692c-8160-4193-bf1d-99f8101c0dd3">
   <img 
     alt="A book with a sparkle on the top-right corner. To the right are the words, 'Wishly'." 
     src="https://github.com/user-attachments/assets/28d3420a-15d6-4c57-b157-fc94eb9413c1" 
