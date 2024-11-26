@@ -29,5 +29,5 @@ My parents were asking me to make a wishlist for the rest of the family. I was r
   - [ ] Marking entries as purchased
 - [ ] Push Notifications for purchased items
  - [ ] Email Notification?
-- [ ] PWA-friendly
+- [x] PWA-friendly
 - [ ] Making it look pretty
