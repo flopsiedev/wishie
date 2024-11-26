@@ -30,4 +30,4 @@ My parents were asking me to make a wishlist for the rest of the family. I was r
 - [ ] Push Notifications for purchased items
  - [ ] Email Notification?
 - [x] PWA-friendly
-- [ ] Making it look pretty
+- [x] Making it look pretty
