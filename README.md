@@ -22,11 +22,11 @@ My parents were asking me to make a wishlist for the rest of the family. I was r
 
 ## Features
 - [x] Sign In with Google (OAuth)
-- [ ] Single Paste Algorithm or SPA! (I didn't mean to make an ancronym...)
-  - [ ] Pasting the link to make an entry
-  - [ ] Deleting entries
-  - [ ] Generating Name & Price from URL
-  - [ ] Marking entries as purchased
+- [x] Single Paste Algorithm or SPA! (I didn't mean to make an ancronym...)
+  - [x] Pasting the link to make an entry
+  - [x] Generating Name & Price from URL
+- [ ] Deleting entries
+- [ ] Marking entries as purchased
 - [ ] Push Notifications for purchased items
  - [ ] Email Notification?
 - [x] PWA-friendly

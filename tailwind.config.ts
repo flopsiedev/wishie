@@ -7,7 +7,7 @@ export default {
 	theme: {
 		extend: {}
 	},
-	plugins: [typography, forms, require('daisyui')],
+	plugins: [typography, forms, require('daisyui'), require("tailwind-gradient-mask-image")],
 	daisyui: {
 		themes: ["dracula"]
 	}

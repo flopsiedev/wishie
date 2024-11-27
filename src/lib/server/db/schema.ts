@@ -22,5 +22,22 @@ export const sessionTable = sqliteTable('session', {
 	lastUsed: integer('last_used', { mode: 'timestamp' }).notNull()
 });
 
+export const wishlistTable = sqliteTable("wishlist", {
+	id: text("id").primaryKey(),
+	name: text("name").notNull().default("default"),
+	ownerId: integer("owner_id")
+		.notNull()
+		.references(() => userTable.id),
+	createdOn: integer("created_on", { mode: "timestamp" }).notNull(),
+	content: text("content").notNull(),
+});
+
 export type Session = typeof sessionTable.$inferSelect;
 export type User = typeof userTable.$inferSelect;
+export interface WishlistEntry {
+	order: number;
+	product_name: string;
+	current_price: string;
+	original_price: string | null;
+	url: string;
+}

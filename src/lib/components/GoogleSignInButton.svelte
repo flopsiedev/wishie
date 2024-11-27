@@ -8,8 +8,6 @@
 
             if (response.ok) {
                 window.location.href = "/auth";
-            } else {
-                console.error("Authentication failed");
             }
         } catch (error) {
             console.error("Error during sign in:", error);
